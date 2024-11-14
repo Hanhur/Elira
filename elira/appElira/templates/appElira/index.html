@@ -1,0 +1,52 @@
+{% extends "base.html" %} 
+
+{% load static %} 
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static 'appElira/index.css' %}" />
+{% endblock css_files %} 
+
+{% block title %}ELIRA{% endblock title %} 
+
+{% block content %}
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="header-list">
+                    <li class="header-item">
+                        <a href="/" class="header-link">Home</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="/about" class="header-link">About</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="/coupons" class="header-link">Gift Coupons</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="/stores" class="header-link">Stores</a>
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="/connect" class="nav-link">Connect</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/sign" class="nav-link">Sign In</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content">
+                <img class="content-img" src="{% static 'appElira/images/header-img-1.png' %}" alt="">
+                <img class="content-img" src="{% static 'appElira/images/header-img-2.png' %}" alt="">
+                <div class="content-box">
+                    <h1 class="content-title">E L I R A</h1>
+                    <p class="content-text">We add elegance to your freedom</p>
+                    <button class="content-box-btn" type="button">
+                        Shop Now
+                        <img src="{% static 'appElira/images/bag.svg' %}" alt="" width="30">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+{% endblock content %}
