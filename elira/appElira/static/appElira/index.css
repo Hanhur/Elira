@@ -17,6 +17,10 @@
 {
     text-decoration: none;
 }
+.header-content
+{
+    border-bottom: 3px solid var(--color-White-3);
+}
 .content 
 {
     display: flex;
