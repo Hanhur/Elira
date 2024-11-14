@@ -6,3 +6,6 @@ def home_page(request):
 
 def about_page(request):
     return render(request, 'appElira/about.html')
+
+def coupons_page(request):
+    return render(request, 'appElira/coupons.html')
