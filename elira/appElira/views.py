@@ -12,3 +12,6 @@ def coupons_page(request):
 
 def stores_page(request):
     return render(request, 'appElira/stores.html')
+
+def connect_page(request):
+    return render(request, 'appElira/connect.html')
