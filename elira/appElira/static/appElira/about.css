@@ -6,6 +6,10 @@
     background-color: var(--color-White-2);
     position: relative;
 }
+.header-content
+{
+    border-bottom: 3px solid var(--color-White-3);
+}
 .block-title
 {
     font-family: "Gentium Book Plus", serif;

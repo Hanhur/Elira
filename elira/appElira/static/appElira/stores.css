@@ -4,6 +4,10 @@
     background-color: var(--color-White-2);
     padding: 64px 45px 83px;
 }
+.header-content
+{
+    border-bottom: 3px solid var(--color-White-3);
+}
 .make-title
 {
     font-family: "Gentium Book Plus", serif;

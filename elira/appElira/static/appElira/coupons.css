@@ -3,6 +3,10 @@
     background-color: var(--color-White-2);
     padding: 64px 61px 40px 80px;
 }
+.header-content
+{
+    border-bottom: 3px solid var(--color-White-3);
+}
 .collection-content
 {
     display: flex;
