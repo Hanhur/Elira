@@ -15,3 +15,6 @@ def stores_page(request):
 
 def connect_page(request):
     return render(request, 'appElira/connect.html')
+
+def sign_page(request):
+    return render(request, 'appElira/sign.html')
